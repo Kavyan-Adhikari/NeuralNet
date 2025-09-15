@@ -29,7 +29,6 @@ void free_matrix(Matrix *m) {
 
 // TODO implement copy constructor
 
-
 void print_matrix(const Matrix *m) {
 	
 	for(int i = 0; i < m->rows; i++) {
@@ -67,7 +66,7 @@ Matrix dot_prod(Matrix *a, Matrix *b) {
 	
 	for (int i =  0; i < b->cols; i++) {
 		for (int j = 0; j < a->rows; j++){
-										
+								
 		}
 	}
 	
